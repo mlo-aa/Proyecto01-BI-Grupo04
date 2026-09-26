@@ -1,0 +1,59 @@
+{
+  "semilla": 20260925,
+  "periodos": [
+    "2024-1",
+    "2024-2",
+    "2025-1",
+    "2025-2"
+  ],
+  "tablas": {
+    "carrera": {
+      "filas": 3,
+      "sha256": "f7570b8360db6c47fb771936dbb5023e5b7063f747e4c6b4abfe0bbb91f351e9"
+    },
+    "sede": {
+      "filas": 3,
+      "sha256": "b08be7477beb44c4ccb1bde0a0e68b84fa66b8d8be040ef7cc20aea05b224f65"
+    },
+    "docente": {
+      "filas": 18,
+      "sha256": "b5af597778355577e99c0bdebd5dca2798a7919f9b6be2ee570780b0bc7dc784"
+    },
+    "modalidad": {
+      "filas": 3,
+      "sha256": "388b87cb60aa13e8613949c2d453aff4df5743b374c63a39a5ac4888794a9080"
+    },
+    "horario": {
+      "filas": 3,
+      "sha256": "2bc755fe7495e4b458b77cde15eb3bd79aebda31efdf136a46fe11a667cbe7f4"
+    },
+    "periodo": {
+      "filas": 4,
+      "sha256": "6c2d7fda64d2d950df7564f3ec526f9b24d0a098eed122c35789e3ca56561a02"
+    },
+    "curso": {
+      "filas": 9,
+      "sha256": "776d6802cbbd6058a8497a1536afd0d55e524e6a85ee5395ff3df0f21ff65719"
+    },
+    "estudiante": {
+      "filas": 240,
+      "sha256": "916d33961ca0217141a43b8e4b8a848f7d06f1af2aadcc3b2690c4fb4b04705b"
+    },
+    "trayectoria": {
+      "filas": 960,
+      "sha256": "ee266bbe8fab4ec08e92dce5588b54a1d1c32bcd43326be23e2739d8cdbad455"
+    },
+    "grupo": {
+      "filas": 324,
+      "sha256": "d5cf30f30fef09335537245941cbe6c9bb2fec50523a4341d0c418a010777276"
+    },
+    "solicitud": {
+      "filas": 3840,
+      "sha256": "bfb426e89cbb75c89711f132ba939815b220616e1c7cfcd647e32a4d0ff95449"
+    },
+    "matricula": {
+      "filas": 2295,
+      "sha256": "b791b1704dfe38d8d298f2a45e0d66609ba75f9b08c847beff1b64d61d716802"
+    }
+  }
+}
