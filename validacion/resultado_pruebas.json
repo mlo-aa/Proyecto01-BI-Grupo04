@@ -1,0 +1,218 @@
+{
+  "motor": "PostgreSQL 18.3 (PGlite 0.5.8) on wasm32-unknown-emscripten, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+  "entorno": "PGlite PostgreSQL embebido, no servidor del grupo",
+  "archivos": [
+    {
+      "archivo": "database/ddl/01_fuente.sql",
+      "estado": "OK"
+    },
+    {
+      "archivo": "database/dml/02_datos.sql",
+      "estado": "OK"
+    },
+    {
+      "archivo": "database/ddl/03_vistas_control.sql",
+      "estado": "OK"
+    },
+    {
+      "archivo": "database/ddl/04_validar.sql",
+      "estado": "OK"
+    }
+  ],
+  "controles": [
+    {
+      "control": "capacidad",
+      "incidencias": 0
+    },
+    {
+      "control": "fechas_matricula",
+      "incidencias": 0
+    },
+    {
+      "control": "fechas_solicitud",
+      "incidencias": 0
+    },
+    {
+      "control": "grupo_compatible",
+      "incidencias": 0
+    },
+    {
+      "control": "resultados_pendientes",
+      "incidencias": 0
+    },
+    {
+      "control": "sin_cupo_justificado",
+      "incidencias": 0
+    },
+    {
+      "control": "solicitud_asignacion",
+      "incidencias": 0
+    },
+    {
+      "control": "solicitud_sin_oferta",
+      "incidencias": 0
+    }
+  ],
+  "pruebas_negativas": [
+    {
+      "prueba": "pk_duplicada",
+      "detectada": true
+    },
+    {
+      "prueba": "fk_inexistente",
+      "detectada": true
+    },
+    {
+      "prueba": "nota_fuera_rango",
+      "detectada": true
+    },
+    {
+      "prueba": "retiro_con_nota",
+      "detectada": true
+    },
+    {
+      "prueba": "duplicado_solicitud",
+      "detectada": true
+    },
+    {
+      "prueba": "sobrecupo",
+      "detectada": true
+    },
+    {
+      "prueba": "fecha_incompatible",
+      "detectada": true
+    }
+  ],
+  "consultas": [
+    {
+      "pregunta": "P1",
+      "filas": 323,
+      "muestra": [
+        {
+          "id_periodo": 1,
+          "id_carrera": 3,
+          "id_curso": 7,
+          "id_sede": 2,
+          "inscripciones": 17,
+          "estudiantes_unicos": 17
+        },
+        {
+          "id_periodo": 1,
+          "id_carrera": 2,
+          "id_curso": 6,
+          "id_sede": 1,
+          "inscripciones": 14,
+          "estudiantes_unicos": 14
+        }
+      ]
+    },
+    {
+      "pregunta": "P2",
+      "filas": 554,
+      "muestra": [
+        {
+          "id_periodo": 3,
+          "id_curso": 4,
+          "id_docente": 2,
+          "id_modalidad": 1,
+          "cohorte": "2024-1",
+          "n": 2,
+          "aprobacion_pct": "100.00",
+          "reprobacion_pct": "0.00",
+          "retiro_pct": "0.00"
+        },
+        {
+          "id_periodo": 3,
+          "id_curso": 1,
+          "id_docente": 12,
+          "id_modalidad": 1,
+          "cohorte": "2024-1",
+          "n": 4,
+          "aprobacion_pct": "50.00",
+          "reprobacion_pct": "50.00",
+          "retiro_pct": "0.00"
+        }
+      ]
+    },
+    {
+      "pregunta": "P3",
+      "filas": 24,
+      "muestra": [
+        {
+          "id_periodo": 1,
+          "id_carrera": 3,
+          "cohorte": "2023-1",
+          "nota_promedio": "69.01",
+          "n_notas": 80,
+          "creditos_aprobados": 190
+        },
+        {
+          "id_periodo": 3,
+          "id_carrera": 1,
+          "cohorte": "2023-1",
+          "nota_promedio": "70.81",
+          "n_notas": 77,
+          "creditos_aprobados": 175
+        }
+      ]
+    },
+    {
+      "pregunta": "P4",
+      "filas": 324,
+      "muestra": [
+        {
+          "id_periodo": 1,
+          "id_curso": 1,
+          "id_sede": 1,
+          "id_horario": 1,
+          "cupos": 5,
+          "matriculados": "5",
+          "demanda": 28,
+          "utilizacion_pct": "100.00"
+        },
+        {
+          "id_periodo": 2,
+          "id_curso": 3,
+          "id_sede": 1,
+          "id_horario": 1,
+          "cupos": 5,
+          "matriculados": "5",
+          "demanda": 39,
+          "utilizacion_pct": "100.00"
+        }
+      ]
+    },
+    {
+      "pregunta": "P5",
+      "filas": 313,
+      "muestra": [
+        {
+          "id_periodo": 1,
+          "id_curso": 1,
+          "id_sede": 1,
+          "id_horario": 1,
+          "sin_cupo": 23,
+          "demanda_activa_elegible": 28,
+          "no_atendida_pct": "82.14"
+        },
+        {
+          "id_periodo": 1,
+          "id_curso": 1,
+          "id_sede": 1,
+          "id_horario": 2,
+          "sin_cupo": 2,
+          "demanda_activa_elegible": 20,
+          "no_atendida_pct": "10.00"
+        }
+      ]
+    }
+  ],
+  "totales": {
+    "solicitudes": 3840,
+    "matriculas": 2295,
+    "sin_cupo": 1241,
+    "no_elegibles": 173,
+    "desistidas": 131,
+    "grupos_sin_matricula": 11
+  }
+}
