@@ -1,0 +1,950 @@
+{
+  "columns": [
+    {
+      "table_name": "carrera",
+      "column_name": "id_carrera",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "carrera",
+      "column_name": "nombre",
+      "data_type": "character varying",
+      "character_maximum_length": 100,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "curso",
+      "column_name": "id_curso",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "curso",
+      "column_name": "codigo",
+      "data_type": "character varying",
+      "character_maximum_length": 12,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "curso",
+      "column_name": "nombre",
+      "data_type": "character varying",
+      "character_maximum_length": 100,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "curso",
+      "column_name": "creditos",
+      "data_type": "smallint",
+      "character_maximum_length": null,
+      "numeric_precision": 16,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "docente",
+      "column_name": "id_docente",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "docente",
+      "column_name": "alias",
+      "data_type": "character varying",
+      "character_maximum_length": 50,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "estudiante",
+      "column_name": "id_estudiante",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "estudiante",
+      "column_name": "alias",
+      "data_type": "character varying",
+      "character_maximum_length": 30,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_grupo",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_curso",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_periodo",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_sede",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_docente",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_modalidad",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "id_horario",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "numero_grupo",
+      "data_type": "smallint",
+      "character_maximum_length": null,
+      "numeric_precision": 16,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "grupo",
+      "column_name": "capacidad_corte",
+      "data_type": "smallint",
+      "character_maximum_length": null,
+      "numeric_precision": 16,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "horario",
+      "column_name": "id_horario",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "horario",
+      "column_name": "franja",
+      "data_type": "character varying",
+      "character_maximum_length": 30,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "id_matricula",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "id_solicitud",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "id_grupo",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "fecha",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "estado",
+      "data_type": "character varying",
+      "character_maximum_length": 12,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "nota",
+      "data_type": "numeric",
+      "character_maximum_length": null,
+      "numeric_precision": 5,
+      "numeric_scale": 2,
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "matricula",
+      "column_name": "fecha_retiro",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "YES"
+    },
+    {
+      "table_name": "modalidad",
+      "column_name": "id_modalidad",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "modalidad",
+      "column_name": "nombre",
+      "data_type": "character varying",
+      "character_maximum_length": 30,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "id_periodo",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "codigo",
+      "data_type": "character varying",
+      "character_maximum_length": 10,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "anio",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "numero",
+      "data_type": "smallint",
+      "character_maximum_length": null,
+      "numeric_precision": 16,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "inicio",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "corte_matricula",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "periodo",
+      "column_name": "fin",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "sede",
+      "column_name": "id_sede",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "sede",
+      "column_name": "nombre",
+      "data_type": "character varying",
+      "character_maximum_length": 80,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "id_solicitud",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "id_estudiante",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "id_periodo",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "id_curso",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "id_sede",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "id_horario",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "fecha",
+      "data_type": "date",
+      "character_maximum_length": null,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "solicitud",
+      "column_name": "resultado",
+      "data_type": "character varying",
+      "character_maximum_length": 20,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "trayectoria",
+      "column_name": "id_estudiante",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "trayectoria",
+      "column_name": "id_periodo",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "trayectoria",
+      "column_name": "id_carrera",
+      "data_type": "integer",
+      "character_maximum_length": null,
+      "numeric_precision": 32,
+      "numeric_scale": 0,
+      "is_nullable": "NO"
+    },
+    {
+      "table_name": "trayectoria",
+      "column_name": "cohorte",
+      "data_type": "character varying",
+      "character_maximum_length": 10,
+      "numeric_precision": null,
+      "numeric_scale": null,
+      "is_nullable": "NO"
+    }
+  ],
+  "constraints": [
+    {
+      "tabla": "carrera",
+      "nombre": "carrera_id_carrera_not_null",
+      "regla": "NOT NULL id_carrera"
+    },
+    {
+      "tabla": "carrera",
+      "nombre": "carrera_nombre_key",
+      "regla": "UNIQUE (nombre)"
+    },
+    {
+      "tabla": "carrera",
+      "nombre": "carrera_nombre_not_null",
+      "regla": "NOT NULL nombre"
+    },
+    {
+      "tabla": "carrera",
+      "nombre": "carrera_pkey",
+      "regla": "PRIMARY KEY (id_carrera)"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_codigo_key",
+      "regla": "UNIQUE (codigo)"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_codigo_not_null",
+      "regla": "NOT NULL codigo"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_creditos_check",
+      "regla": "CHECK (((creditos >= 1) AND (creditos <= 12)))"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_creditos_not_null",
+      "regla": "NOT NULL creditos"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_id_curso_not_null",
+      "regla": "NOT NULL id_curso"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_nombre_not_null",
+      "regla": "NOT NULL nombre"
+    },
+    {
+      "tabla": "curso",
+      "nombre": "curso_pkey",
+      "regla": "PRIMARY KEY (id_curso)"
+    },
+    {
+      "tabla": "docente",
+      "nombre": "docente_alias_key",
+      "regla": "UNIQUE (alias)"
+    },
+    {
+      "tabla": "docente",
+      "nombre": "docente_alias_not_null",
+      "regla": "NOT NULL alias"
+    },
+    {
+      "tabla": "docente",
+      "nombre": "docente_id_docente_not_null",
+      "regla": "NOT NULL id_docente"
+    },
+    {
+      "tabla": "docente",
+      "nombre": "docente_pkey",
+      "regla": "PRIMARY KEY (id_docente)"
+    },
+    {
+      "tabla": "estudiante",
+      "nombre": "estudiante_alias_key",
+      "regla": "UNIQUE (alias)"
+    },
+    {
+      "tabla": "estudiante",
+      "nombre": "estudiante_alias_not_null",
+      "regla": "NOT NULL alias"
+    },
+    {
+      "tabla": "estudiante",
+      "nombre": "estudiante_id_estudiante_not_null",
+      "regla": "NOT NULL id_estudiante"
+    },
+    {
+      "tabla": "estudiante",
+      "nombre": "estudiante_pkey",
+      "regla": "PRIMARY KEY (id_estudiante)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_capacidad_corte_check",
+      "regla": "CHECK ((capacidad_corte > 0))"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_capacidad_corte_not_null",
+      "regla": "NOT NULL capacidad_corte"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_curso_fkey",
+      "regla": "FOREIGN KEY (id_curso) REFERENCES curso(id_curso)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_curso_id_periodo_id_sede_numero_grupo_key",
+      "regla": "UNIQUE (id_curso, id_periodo, id_sede, numero_grupo)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_curso_not_null",
+      "regla": "NOT NULL id_curso"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_docente_fkey",
+      "regla": "FOREIGN KEY (id_docente) REFERENCES docente(id_docente)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_docente_not_null",
+      "regla": "NOT NULL id_docente"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_grupo_not_null",
+      "regla": "NOT NULL id_grupo"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_horario_fkey",
+      "regla": "FOREIGN KEY (id_horario) REFERENCES horario(id_horario)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_horario_not_null",
+      "regla": "NOT NULL id_horario"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_modalidad_fkey",
+      "regla": "FOREIGN KEY (id_modalidad) REFERENCES modalidad(id_modalidad)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_modalidad_not_null",
+      "regla": "NOT NULL id_modalidad"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_periodo_fkey",
+      "regla": "FOREIGN KEY (id_periodo) REFERENCES periodo(id_periodo)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_periodo_not_null",
+      "regla": "NOT NULL id_periodo"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_sede_fkey",
+      "regla": "FOREIGN KEY (id_sede) REFERENCES sede(id_sede)"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_id_sede_not_null",
+      "regla": "NOT NULL id_sede"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_numero_grupo_check",
+      "regla": "CHECK ((numero_grupo > 0))"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_numero_grupo_not_null",
+      "regla": "NOT NULL numero_grupo"
+    },
+    {
+      "tabla": "grupo",
+      "nombre": "grupo_pkey",
+      "regla": "PRIMARY KEY (id_grupo)"
+    },
+    {
+      "tabla": "horario",
+      "nombre": "horario_franja_key",
+      "regla": "UNIQUE (franja)"
+    },
+    {
+      "tabla": "horario",
+      "nombre": "horario_franja_not_null",
+      "regla": "NOT NULL franja"
+    },
+    {
+      "tabla": "horario",
+      "nombre": "horario_id_horario_not_null",
+      "regla": "NOT NULL id_horario"
+    },
+    {
+      "tabla": "horario",
+      "nombre": "horario_pkey",
+      "regla": "PRIMARY KEY (id_horario)"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_check",
+      "regla": "CHECK (((((estado)::text = 'APROBADO'::text) AND (nota IS NOT NULL) AND (nota >= (70)::numeric) AND (fecha_retiro IS NULL)) OR (((estado)::text = 'REPROBADO'::text) AND (nota IS NOT NULL) AND (nota < (70)::numeric) AND (fecha_retiro IS NULL)) OR (((estado)::text = 'RETIRADO'::text) AND (nota IS NULL) AND (fecha_retiro IS NOT NULL) AND (fecha_retiro >= fecha)) OR (((estado)::text = 'PENDIENTE'::text) AND (nota IS NULL) AND (fecha_retiro IS NULL))))"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_estado_check",
+      "regla": "CHECK (((estado)::text = ANY ((ARRAY['APROBADO'::character varying, 'REPROBADO'::character varying, 'RETIRADO'::character varying, 'PENDIENTE'::character varying])::text[])))"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_estado_not_null",
+      "regla": "NOT NULL estado"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_fecha_not_null",
+      "regla": "NOT NULL fecha"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_id_grupo_fkey",
+      "regla": "FOREIGN KEY (id_grupo) REFERENCES grupo(id_grupo)"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_id_grupo_not_null",
+      "regla": "NOT NULL id_grupo"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_id_matricula_not_null",
+      "regla": "NOT NULL id_matricula"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_id_solicitud_fkey",
+      "regla": "FOREIGN KEY (id_solicitud) REFERENCES solicitud(id_solicitud)"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_id_solicitud_key",
+      "regla": "UNIQUE (id_solicitud)"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_id_solicitud_not_null",
+      "regla": "NOT NULL id_solicitud"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_nota_check",
+      "regla": "CHECK (((nota IS NULL) OR ((nota >= (0)::numeric) AND (nota <= (100)::numeric))))"
+    },
+    {
+      "tabla": "matricula",
+      "nombre": "matricula_pkey",
+      "regla": "PRIMARY KEY (id_matricula)"
+    },
+    {
+      "tabla": "modalidad",
+      "nombre": "modalidad_id_modalidad_not_null",
+      "regla": "NOT NULL id_modalidad"
+    },
+    {
+      "tabla": "modalidad",
+      "nombre": "modalidad_nombre_key",
+      "regla": "UNIQUE (nombre)"
+    },
+    {
+      "tabla": "modalidad",
+      "nombre": "modalidad_nombre_not_null",
+      "regla": "NOT NULL nombre"
+    },
+    {
+      "tabla": "modalidad",
+      "nombre": "modalidad_pkey",
+      "regla": "PRIMARY KEY (id_modalidad)"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_anio_not_null",
+      "regla": "NOT NULL anio"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_anio_numero_key",
+      "regla": "UNIQUE (anio, numero)"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_check",
+      "regla": "CHECK (((inicio <= corte_matricula) AND (corte_matricula < fin)))"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_codigo_key",
+      "regla": "UNIQUE (codigo)"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_codigo_not_null",
+      "regla": "NOT NULL codigo"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_corte_matricula_not_null",
+      "regla": "NOT NULL corte_matricula"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_fin_not_null",
+      "regla": "NOT NULL fin"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_id_periodo_not_null",
+      "regla": "NOT NULL id_periodo"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_inicio_not_null",
+      "regla": "NOT NULL inicio"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_numero_check",
+      "regla": "CHECK ((numero = ANY (ARRAY[1, 2])))"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_numero_not_null",
+      "regla": "NOT NULL numero"
+    },
+    {
+      "tabla": "periodo",
+      "nombre": "periodo_pkey",
+      "regla": "PRIMARY KEY (id_periodo)"
+    },
+    {
+      "tabla": "sede",
+      "nombre": "sede_id_sede_not_null",
+      "regla": "NOT NULL id_sede"
+    },
+    {
+      "tabla": "sede",
+      "nombre": "sede_nombre_key",
+      "regla": "UNIQUE (nombre)"
+    },
+    {
+      "tabla": "sede",
+      "nombre": "sede_nombre_not_null",
+      "regla": "NOT NULL nombre"
+    },
+    {
+      "tabla": "sede",
+      "nombre": "sede_pkey",
+      "regla": "PRIMARY KEY (id_sede)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_fecha_not_null",
+      "regla": "NOT NULL fecha"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_curso_fkey",
+      "regla": "FOREIGN KEY (id_curso) REFERENCES curso(id_curso)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_curso_not_null",
+      "regla": "NOT NULL id_curso"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_estudiante_id_periodo_fkey",
+      "regla": "FOREIGN KEY (id_estudiante, id_periodo) REFERENCES trayectoria(id_estudiante, id_periodo)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_estudiante_id_periodo_id_curso_key",
+      "regla": "UNIQUE (id_estudiante, id_periodo, id_curso)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_estudiante_not_null",
+      "regla": "NOT NULL id_estudiante"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_horario_fkey",
+      "regla": "FOREIGN KEY (id_horario) REFERENCES horario(id_horario)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_horario_not_null",
+      "regla": "NOT NULL id_horario"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_periodo_not_null",
+      "regla": "NOT NULL id_periodo"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_sede_fkey",
+      "regla": "FOREIGN KEY (id_sede) REFERENCES sede(id_sede)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_sede_not_null",
+      "regla": "NOT NULL id_sede"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_id_solicitud_not_null",
+      "regla": "NOT NULL id_solicitud"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_pkey",
+      "regla": "PRIMARY KEY (id_solicitud)"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_resultado_check",
+      "regla": "CHECK (((resultado)::text = ANY ((ARRAY['ASIGNADA'::character varying, 'SIN_CUPO'::character varying, 'NO_ELEGIBLE'::character varying, 'DESISTIDA'::character varying])::text[])))"
+    },
+    {
+      "tabla": "solicitud",
+      "nombre": "solicitud_resultado_not_null",
+      "regla": "NOT NULL resultado"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_cohorte_not_null",
+      "regla": "NOT NULL cohorte"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_id_carrera_fkey",
+      "regla": "FOREIGN KEY (id_carrera) REFERENCES carrera(id_carrera)"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_id_carrera_not_null",
+      "regla": "NOT NULL id_carrera"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_id_estudiante_fkey",
+      "regla": "FOREIGN KEY (id_estudiante) REFERENCES estudiante(id_estudiante)"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_id_estudiante_not_null",
+      "regla": "NOT NULL id_estudiante"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_id_periodo_fkey",
+      "regla": "FOREIGN KEY (id_periodo) REFERENCES periodo(id_periodo)"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_id_periodo_not_null",
+      "regla": "NOT NULL id_periodo"
+    },
+    {
+      "tabla": "trayectoria",
+      "nombre": "trayectoria_pkey",
+      "regla": "PRIMARY KEY (id_estudiante, id_periodo)"
+    }
+  ]
+}

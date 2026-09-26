@@ -1,0 +1,16 @@
+digraph G { graph [rankdir=TB,bgcolor="white",nodesep=.28,ranksep=.6]; node [shape=record,fontname="Arial",fontsize=12,style=filled,fillcolor="#F3F5F7",color="#6C7881"]; edge [fontname="Arial",fontsize=10,dir=both,arrowtail=tee,arrowhead=odotcrow,color="#53616A"];
+estudiante [label="{estudiante|PK id_estudiante|alias}"];
+carrera [label="{carrera|PK id_carrera|nombre}"];
+periodo [label="{periodo|PK id_periodo|inicio / corte_matricula / fin}"];
+trayectoria [label="{trayectoria|PK/FK id_estudiante|PK/FK id_periodo|FK id_carrera|cohorte}"];
+solicitud [label="{solicitud|PK id_solicitud|FK estudiante + periodo|FK curso / sede / horario|fecha / resultado}"];
+matricula [label="{matricula|PK id_matricula|FK id_solicitud UNIQUE|FK id_grupo|fecha / estado / nota|fecha_retiro}"];
+grupo [label="{grupo|PK id_grupo|FK curso / periodo / sede|FK docente / modalidad / horario|numero_grupo / capacidad_corte}"];
+estudiante -> trayectoria;
+carrera -> trayectoria;
+periodo -> trayectoria;
+trayectoria -> solicitud;
+solicitud -> matricula [arrowhead=odottee];
+grupo -> matricula;
+periodo -> grupo;
+}

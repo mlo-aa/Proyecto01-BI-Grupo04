@@ -1,0 +1,16 @@
+digraph G { graph [rankdir=TB,bgcolor="white",nodesep=.28,ranksep=.6]; node [shape=record,fontname="Arial",fontsize=12,style=filled,fillcolor="#F3F5F7",color="#6C7881"]; edge [fontname="Arial",fontsize=10,dir=both,arrowtail=tee,arrowhead=odotcrow,color="#53616A"];
+curso [label="{curso|PK id_curso|codigo / nombre / creditos}"];
+periodo [label="{periodo|PK id_periodo|inicio / corte_matricula / fin}"];
+sede [label="{sede|PK id_sede|nombre}"];
+docente [label="{docente|PK id_docente|alias}"];
+modalidad [label="{modalidad|PK id_modalidad|nombre}"];
+horario [label="{horario|PK id_horario|franja}"];
+grupo [label="{grupo|PK id_grupo|FK curso / periodo / sede|FK docente / modalidad / horario|numero_grupo / capacidad_corte}"];
+curso -> grupo;
+periodo -> grupo;
+sede -> grupo;
+docente -> grupo;
+modalidad -> grupo;
+horario -> grupo;
+{rank=same;curso;periodo;sede;} {rank=same;docente;modalidad;horario;} curso->docente [style=invis];periodo->modalidad [style=invis];sede->horario [style=invis];
+}
