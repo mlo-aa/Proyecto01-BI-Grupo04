@@ -1,0 +1,75 @@
+tabla,campo,tipo,nulo,clave,descripcion
+dim_tiempo,sk_tiempo,integer,NO,PK,Llave subrogada con formato AAAAMMDD.
+dim_tiempo,fecha,date,NO,UK,Fecha calendario.
+dim_tiempo,anio,smallint,NO,,Año de la fecha.
+dim_tiempo,numero_semestre,smallint,NO,,Semestre del periodo (1 o 2).
+dim_tiempo,codigo_periodo,varchar(10),NO,,Código del periodo académico
+dim_tiempo,mes,smallint,NO,,Número del mes (1 a 12).
+dim_tiempo,nombre_mes,varchar(15),NO,,Nombre del mes en español.
+dim_tiempo,dia,smallint,NO,,Día del mes.
+dim_curso,sk_curso,integer,NO,PK,Llave subrogada.
+dim_curso,id_curso_origen,integer,NO,UK,curso.id_curso.
+dim_curso,codigo,varchar(12),NO,,Código del curso.
+dim_curso,nombre,varchar(100),NO,,Nombre del curso.
+dim_curso,creditos,smallint,NO,,Créditos del curso (1 a 12).
+dim_sede,sk_sede,integer,NO,PK,Llave subrogada.
+dim_sede,id_sede_origen,integer,NO,UK,sede.id_sede.
+dim_sede,nombre,varchar(80),NO,,Nombre de la sede.
+dim_horario,sk_horario,integer,NO,PK,Llave subrogada.
+dim_horario,id_horario_origen,integer,NO,UK,horario.id_horario.
+dim_horario,franja,varchar(30),NO,,"Mañana, Tarde o Noche."
+dim_docente,sk_docente,integer,NO,PK,Llave subrogada.
+dim_docente,id_docente_origen,integer,NO,UK,docente.id_docente.
+dim_docente,alias,varchar(50),NO,,Alias ficticio del docente.
+dim_modalidad,sk_modalidad,integer,NO,PK,Llave subrogada.
+dim_modalidad,id_modalidad_origen,integer,NO,UK,modalidad.id_modalidad.
+dim_modalidad,nombre,varchar(30),NO,,"Presencial, Virtual o Híbrida."
+dim_carrera,sk_carrera,integer,NO,PK,Llave subrogada.
+dim_carrera,id_carrera_origen,integer,NO,UK,carrera.id_carrera.
+dim_carrera,nombre,varchar(100),NO,,Nombre de la carrera.
+dim_cohorte,sk_cohorte,integer,NO,PK,Llave subrogada.
+dim_cohorte,cohorte,varchar(10),NO,UK,Cohorte de ingreso
+dim_cohorte,anio_ingreso,smallint,NO,,Año de ingreso.
+dim_cohorte,semestre_ingreso,smallint,NO,,Semestre de ingreso (1 o 2).
+dim_estudiante,sk_estudiante,integer,NO,PK,Llave subrogada.
+dim_estudiante,id_estudiante_origen,integer,NO,UK,estudiante.id_estudiante.
+dim_estudiante,alias,varchar(30),NO,,Alias ficticio del estudiante.
+fact_matricula,id_matricula_origen,integer,NO,PK,matricula.id_matricula
+fact_matricula,id_solicitud_origen,integer,NO,UK,"matricula.id_solicitud, enlaza con fact_solicitud."
+fact_matricula,id_grupo_origen,integer,NO,,"matricula.id_grupo, enlaza con fact_oferta."
+fact_matricula,sk_tiempo,integer,NO,FK,Fecha de matrícula (dim_tiempo).
+fact_matricula,sk_estudiante,integer,NO,FK,Estudiante matriculado (dim_estudiante).
+fact_matricula,sk_carrera,integer,NO,FK,Carrera de adscripción del estudiante en el periodo
+fact_matricula,sk_cohorte,integer,NO,FK,Cohorte de ingreso del estudiante (dim_cohorte).
+fact_matricula,sk_curso,integer,NO,FK,Curso del grupo (dim_curso).
+fact_matricula,sk_sede,integer,NO,FK,Sede del grupo (dim_sede).
+fact_matricula,sk_horario,integer,NO,FK,Franja del grupo (dim_horario).
+fact_matricula,sk_docente,integer,NO,FK,Docente del grupo (dim_docente).
+fact_matricula,sk_modalidad,integer,NO,FK,Modalidad del grupo (dim_modalidad).
+fact_matricula,matricula,smallint,NO,,Siempre 1; cuenta inscripciones.
+fact_matricula,es_aprobado,smallint,NO,,"1 si el estado es APROBADO, 0 en otro caso."
+fact_matricula,es_reprobado,smallint,NO,,"1 si el estado es REPROBADO, 0 en otro caso."
+fact_matricula,es_retirado,smallint,NO,,"1 si el estado es RETIRADO, 0 en otro caso."
+fact_matricula,nota,"numeric(5,2)",SÍ,,"Nota de 0 a 100, NULL en retirados."
+fact_matricula,creditos_aprobados,smallint,NO,,"Créditos del curso si es_aprobado = 1, 0 en otro caso."
+fact_oferta,id_grupo_origen,integer,NO,PK,"grupo.id_grupo, llave de origen para trazabilidad."
+fact_oferta,numero_grupo,smallint,NO,,"Número del grupo dentro de curso, periodo y sede."
+fact_oferta,sk_tiempo,integer,NO,FK,Fecha de corte de matrícula del periodo (dim_tiempo).
+fact_oferta,sk_curso,integer,NO,FK,Curso del grupo (dim_curso).
+fact_oferta,sk_sede,integer,NO,FK,Sede del grupo (dim_sede).
+fact_oferta,sk_horario,integer,NO,FK,Franja del grupo (dim_horario).
+fact_oferta,sk_docente,integer,NO,FK,Docente del grupo (dim_docente).
+fact_oferta,sk_modalidad,integer,NO,FK,Modalidad del grupo (dim_modalidad).
+fact_oferta,grupos,smallint,NO,,Siempre 1
+fact_oferta,capacidad_corte,smallint,NO,,Cupos del grupo al corte de matrícula.
+fact_oferta,matriculados,smallint,NO,,"Matrículas del grupo al corte, 0 si no tiene."
+fact_solicitud,id_solicitud_origen,integer,NO,PK,"solicitud.id_solicitud, llave de origen para trazabilidad."
+fact_solicitud,sk_tiempo,integer,NO,FK,Fecha de la solicitud (dim_tiempo).
+fact_solicitud,sk_curso,integer,NO,FK,Curso solicitado (dim_curso).
+fact_solicitud,sk_sede,integer,NO,FK,Sede solicitada (dim_sede).
+fact_solicitud,sk_horario,integer,NO,FK,Franja solicitada (dim_horario).
+fact_solicitud,solicitudes,smallint,NO,,Siempre 1; cuenta solicitudes.
+fact_solicitud,es_asignada,smallint,NO,,"1 si el resultado es ASIGNADA, 0 en otro caso."
+fact_solicitud,es_sin_cupo,smallint,NO,,"1 si el resultado es SIN_CUPO, 0 en otro caso."
+fact_solicitud,es_no_elegible,smallint,NO,,"1 si el resultado es NO_ELEGIBLE, 0 en otro caso."
+fact_solicitud,es_desistida,smallint,NO,,"1 si el resultado es DESISTIDA, 0 en otro caso."
