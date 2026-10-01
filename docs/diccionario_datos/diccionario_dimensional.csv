@@ -1,0 +1,54 @@
+tabla;campo;tipo;nulo;clave;descripcion
+dim_tiempo;sk_tiempo;integer;NO;PK;Llave subrogada con formato AAAAMMDD.
+dim_tiempo;fecha;date;NO;UK;Fecha calendario.
+dim_tiempo;anio;smallint;NO;;Año de la fecha.
+dim_tiempo;numero_semestre;smallint;NO;;Semestre del periodo (1 o 2).
+dim_tiempo;codigo_periodo;varchar(10);NO;;Código del periodo académico
+dim_tiempo;mes;smallint;NO;;Número del mes (1 a 12).
+dim_tiempo;nombre_mes;varchar(15);NO;;Nombre del mes en español.
+dim_tiempo;dia;smallint;NO;;Día del mes.
+dim_curso;sk_curso;integer;NO;PK;Llave subrogada.
+dim_curso;id_curso_origen;integer;NO;UK;curso.id_curso.
+dim_curso;codigo;varchar(12);NO;;Código del curso.
+dim_curso;nombre;varchar(100);NO;;Nombre del curso.
+dim_curso;creditos;smallint;NO;;Créditos del curso (1 a 12).
+dim_sede;sk_sede;integer;NO;PK;Llave subrogada.
+dim_sede;id_sede_origen;integer;NO;UK;sede.id_sede.
+dim_sede;nombre;varchar(80);NO;;Nombre de la sede.
+dim_horario;sk_horario;integer;NO;PK;Llave subrogada.
+dim_horario;id_horario_origen;integer;NO;UK;horario.id_horario.
+dim_horario;franja;varchar(30);NO;;Mañana, Tarde o Noche.
+dim_estudiante;sk_estudiante;integer;NO;PK;Llave subrogada.
+dim_estudiante;id_estudiante_origen;integer;NO;UK;estudiante.id_estudiante.
+dim_estudiante;alias;varchar(30);NO;;Alias ficticio del estudiante.
+dim_estudiante;carrera;varchar(100);NO;;Nombre de la carrera de adscripción (trayectoria.id_carrera, carrera.nombre).
+dim_estudiante;cohorte;varchar(10);NO;;Cohorte de ingreso
+dim_estudiante;anio_ingreso;smallint;SÍ;;Año de ingreso, NULL en No aplica.
+dim_grupo;sk_grupo;integer;NO;PK;Llave subrogada.
+dim_grupo;id_grupo_origen;integer;NO;UK;grupo.id_grupo.
+dim_grupo;numero_grupo;smallint;SÍ;;Número del grupo dentro de curso, periodo y sede, NULL en No aplica.
+dim_grupo;docente;varchar(50);NO;;Alias ficticio del docente (docente.alias).
+dim_grupo;modalidad;varchar(30);NO;;Presencial, Virtual o Híbrida (modalidad.nombre).
+fact_academico;sk_hecho;integer;NO;PK;Llave subrogada de la fila.
+fact_academico;tipo_registro;varchar(10);NO;;SOLICITUD (una por solicitud, con su matrícula si la tiene) o GRUPO (una por grupo ofertado).
+fact_academico;id_solicitud_origen;integer;SÍ;UK;solicitud.id_solicitud, llave de origen para trazabilidad. NULL en filas GRUPO.
+fact_academico;id_matricula_origen;integer;SÍ;UK;matricula.id_matricula, llave de origen para trazabilidad. NULL si la solicitud no tiene matrícula.
+fact_academico;sk_tiempo;integer;NO;FK;Fecha de la solicitud, o fecha de corte de matrícula en filas GRUPO (dim_tiempo).
+fact_academico;sk_estudiante;integer;NO;FK;Estudiante solicitante (dim_estudiante), -1 en filas GRUPO.
+fact_academico;sk_curso;integer;NO;FK;Curso solicitado u ofertado (dim_curso).
+fact_academico;sk_sede;integer;NO;FK;Sede solicitada u ofertada (dim_sede).
+fact_academico;sk_horario;integer;NO;FK;Franja solicitada u ofertada (dim_horario).
+fact_academico;sk_grupo;integer;NO;FK;Grupo de la matrícula, o grupo ofertado en filas GRUPO (dim_grupo), -1 si la solicitud no tiene matrícula.
+fact_academico;solicitudes;smallint;NO;;1 en filas SOLICITUD, 0 en filas GRUPO.
+fact_academico;es_asignada;smallint;NO;;1 si el resultado es ASIGNADA, 0 en otro caso.
+fact_academico;es_sin_cupo;smallint;NO;;1 si el resultado es SIN_CUPO, 0 en otro caso.
+fact_academico;es_no_elegible;smallint;NO;;1 si el resultado es NO_ELEGIBLE, 0 en otro caso.
+fact_academico;es_desistida;smallint;NO;;1 si el resultado es DESISTIDA, 0 en otro caso.
+fact_academico;matricula;smallint;NO;;1 si la solicitud tiene matrícula efectiva, 0 en otro caso.
+fact_academico;es_aprobado;smallint;NO;;1 si el estado de la matrícula es APROBADO, 0 en otro caso.
+fact_academico;es_reprobado;smallint;NO;;1 si el estado de la matrícula es REPROBADO, 0 en otro caso.
+fact_academico;es_retirado;smallint;NO;;1 si el estado de la matrícula es RETIRADO, 0 en otro caso.
+fact_academico;nota;numeric(5,2);SÍ;;Nota de 0 a 100, NULL en retirados y en filas sin matrícula.
+fact_academico;creditos_aprobados;smallint;NO;;Créditos del curso si es_aprobado = 1, 0 en otro caso.
+fact_academico;grupos;smallint;NO;;1 en filas GRUPO,0 en filas SOLICITUD.
+fact_academico;capacidad_corte;smallint;NO;;Cupos del grupo al corte de matrícula en filas GRUPO, 0 en filas SOLICITUD.
