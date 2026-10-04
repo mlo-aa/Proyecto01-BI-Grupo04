@@ -1,0 +1,582 @@
+ codigo_periodo | ranking |        carrera        |        curso        |   sede   | total_matriculas 
+----------------+---------+-----------------------+---------------------+----------+------------------
+ 2024-1         |       1 | Ingeniería Industrial | Gestión de procesos | Norte    |               17
+ 2024-1         |       2 | Informática           | Economía            | Central  |               14
+ 2024-1         |       3 | Administración        | Matemática          | Central  |               13
+ 2024-1         |       3 | Administración        | Estadística         | Central  |               13
+ 2024-1         |       5 | Informática           | Bases de datos      | Central  |               12
+ 2024-1         |       5 | Ingeniería Industrial | Contabilidad        | Central  |               12
+ 2024-1         |       5 | Informática           | Comunicación        | Central  |               12
+ 2024-1         |       5 | Ingeniería Industrial | Economía            | Central  |               12
+ 2024-1         |       9 | Administración        | Investigación       | Central  |               11
+ 2024-1         |       9 | Administración        | Bases de datos      | Norte    |               11
+ 2024-1         |       9 | Informática           | Investigación       | Central  |               11
+ 2024-1         |       9 | Administración        | Gestión de procesos | Central  |               11
+ 2024-1         |       9 | Ingeniería Industrial | Estadística         | Norte    |               11
+ 2024-1         |       9 | Ingeniería Industrial | Programación        | Norte    |               11
+ 2024-1         |       9 | Administración        | Programación        | Central  |               11
+ 2024-2         |       1 | Ingeniería Industrial | Economía            | Central  |               15
+ 2024-2         |       2 | Ingeniería Industrial | Gestión de procesos | Central  |               13
+ 2024-2         |       2 | Administración        | Bases de datos      | Central  |               13
+ 2024-2         |       2 | Ingeniería Industrial | Contabilidad        | Central  |               13
+ 2024-2         |       5 | Informática           | Comunicación        | Central  |               12
+ 2024-2         |       5 | Ingeniería Industrial | Investigación       | Central  |               12
+ 2024-2         |       5 | Ingeniería Industrial | Bases de datos      | Norte    |               12
+ 2024-2         |       8 | Administración        | Gestión de procesos | Central  |               11
+ 2024-2         |       8 | Informática           | Bases de datos      | Norte    |               11
+ 2024-2         |      10 | Administración        | Bases de datos      | Norte    |               10
+ 2024-2         |      10 | Ingeniería Industrial | Bases de datos      | Pacífico |               10
+ 2024-2         |      10 | Administración        | Comunicación        | Pacífico |               10
+ 2024-2         |      10 | Ingeniería Industrial | Programación        | Central  |               10
+ 2024-2         |      10 | Informática           | Comunicación        | Pacífico |               10
+ 2024-2         |      10 | Informática           | Economía            | Central  |               10
+ 2025-1         |       1 | Administración        | Contabilidad        | Central  |               13
+ 2025-1         |       2 | Informática           | Matemática          | Norte    |               12
+ 2025-1         |       2 | Administración        | Contabilidad        | Norte    |               12
+ 2025-1         |       2 | Informática           | Gestión de procesos | Central  |               12
+ 2025-1         |       5 | Informática           | Matemática          | Central  |               11
+ 2025-1         |       5 | Informática           | Bases de datos      | Norte    |               11
+ 2025-1         |       5 | Informática           | Estadística         | Central  |               11
+ 2025-1         |       5 | Informática           | Programación        | Central  |               11
+ 2025-1         |       9 | Ingeniería Industrial | Contabilidad        | Central  |               10
+ 2025-1         |       9 | Administración        | Bases de datos      | Central  |               10
+ 2025-1         |       9 | Administración        | Programación        | Norte    |               10
+ 2025-1         |       9 | Ingeniería Industrial | Programación        | Central  |               10
+ 2025-1         |       9 | Administración        | Economía            | Central  |               10
+ 2025-1         |       9 | Ingeniería Industrial | Estadística         | Central  |               10
+ 2025-2         |       1 | Informática           | Gestión de procesos | Central  |               16
+ 2025-2         |       2 | Ingeniería Industrial | Estadística         | Central  |               13
+ 2025-2         |       3 | Informática           | Programación        | Central  |               12
+ 2025-2         |       3 | Ingeniería Industrial | Contabilidad        | Central  |               12
+ 2025-2         |       3 | Administración        | Matemática          | Central  |               12
+ 2025-2         |       3 | Administración        | Programación        | Norte    |               12
+ 2025-2         |       7 | Informática           | Economía            | Norte    |               11
+ 2025-2         |       7 | Informática           | Estadística         | Norte    |               11
+ 2025-2         |       7 | Informática           | Contabilidad        | Norte    |               11
+ 2025-2         |       7 | Administración        | Estadística         | Norte    |               11
+ 2025-2         |       7 | Ingeniería Industrial | Economía            | Central  |               11
+ 2025-2         |       7 | Administración        | Bases de datos      | Central  |               11
+(56 filas)
+
+        curso        |  docente   | modalidad  | cohorte | total_matriculados | pct_aprobacion | pct_reprobacion | pct_retiro 
+---------------------+------------+------------+---------+--------------------+----------------+-----------------+------------
+ Bases de datos      | Docente 09 | Híbrida    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Bases de datos      | Docente 01 | Virtual    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Bases de datos      | Docente 11 | Híbrida    | 2023-1  |                  6 |           50.0 |            33.3 |       16.7
+ Bases de datos      | Docente 05 | Virtual    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 01 | Presencial | 2023-1  |                  6 |           83.3 |            16.7 |        0.0
+ Bases de datos      | Docente 18 | Presencial | 2023-1  |                  5 |           80.0 |            20.0 |        0.0
+ Bases de datos      | Docente 16 | Presencial | 2023-1  |                  2 |            0.0 |             0.0 |      100.0
+ Bases de datos      | Docente 10 | Híbrida    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Bases de datos      | Docente 15 | Híbrida    | 2023-1  |                  5 |           80.0 |            20.0 |        0.0
+ Bases de datos      | Docente 06 | Virtual    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Bases de datos      | Docente 13 | Híbrida    | 2023-1  |                  3 |            0.0 |           100.0 |        0.0
+ Bases de datos      | Docente 12 | Presencial | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Bases de datos      | Docente 12 | Híbrida    | 2023-1  |                  9 |           44.4 |            33.3 |       22.2
+ Bases de datos      | Docente 18 | Virtual    | 2023-1  |                  4 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 06 | Híbrida    | 2023-1  |                  8 |           62.5 |            25.0 |       12.5
+ Bases de datos      | Docente 09 | Presencial | 2023-1  |                  8 |           25.0 |            25.0 |       50.0
+ Bases de datos      | Docente 16 | Virtual    | 2023-1  |                  3 |           33.3 |            33.3 |       33.3
+ Bases de datos      | Docente 10 | Presencial | 2023-1  |                  1 |            0.0 |           100.0 |        0.0
+ Bases de datos      | Docente 07 | Presencial | 2023-1  |                  5 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 08 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 03 | Virtual    | 2023-1  |                  4 |           50.0 |            25.0 |       25.0
+ Bases de datos      | Docente 11 | Virtual    | 2023-1  |                 16 |           68.8 |            25.0 |        6.3
+ Bases de datos      | Docente 04 | Presencial | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 18 | Híbrida    | 2023-1  |                  7 |           71.4 |            28.6 |        0.0
+ Bases de datos      | Docente 02 | Presencial | 2023-1  |                 15 |           66.7 |            26.7 |        6.7
+ Bases de datos      | Docente 17 | Virtual    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Bases de datos      | Docente 16 | Híbrida    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Bases de datos      | Docente 07 | Virtual    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 08 | Virtual    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Bases de datos      | Docente 01 | Virtual    | 2024-1  |                  3 |           66.7 |             0.0 |       33.3
+ Bases de datos      | Docente 10 | Presencial | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 07 | Virtual    | 2024-1  |                  4 |           50.0 |            50.0 |        0.0
+ Bases de datos      | Docente 06 | Virtual    | 2024-1  |                  1 |            0.0 |           100.0 |        0.0
+ Bases de datos      | Docente 05 | Virtual    | 2024-1  |                  7 |           85.7 |            14.3 |        0.0
+ Bases de datos      | Docente 13 | Híbrida    | 2024-1  |                  5 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 11 | Híbrida    | 2024-1  |                  8 |           25.0 |            50.0 |       25.0
+ Bases de datos      | Docente 01 | Presencial | 2024-1  |                  7 |           42.9 |            42.9 |       14.3
+ Bases de datos      | Docente 17 | Virtual    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Bases de datos      | Docente 15 | Híbrida    | 2024-1  |                  5 |           40.0 |            40.0 |       20.0
+ Bases de datos      | Docente 04 | Presencial | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 16 | Virtual    | 2024-1  |                  7 |           57.1 |            28.6 |       14.3
+ Bases de datos      | Docente 03 | Virtual    | 2024-1  |                  3 |           66.7 |             0.0 |       33.3
+ Bases de datos      | Docente 18 | Presencial | 2024-1  |                  7 |           57.1 |            14.3 |       28.6
+ Bases de datos      | Docente 16 | Híbrida    | 2024-1  |                  5 |           60.0 |            40.0 |        0.0
+ Bases de datos      | Docente 09 | Híbrida    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Bases de datos      | Docente 09 | Presencial | 2024-1  |                  6 |           50.0 |            50.0 |        0.0
+ Bases de datos      | Docente 18 | Híbrida    | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Bases de datos      | Docente 06 | Híbrida    | 2024-1  |                 10 |           70.0 |            20.0 |       10.0
+ Bases de datos      | Docente 12 | Híbrida    | 2024-1  |                  6 |           50.0 |            33.3 |       16.7
+ Bases de datos      | Docente 02 | Presencial | 2024-1  |                  8 |           87.5 |            12.5 |        0.0
+ Bases de datos      | Docente 18 | Virtual    | 2024-1  |                  6 |           33.3 |            50.0 |       16.7
+ Bases de datos      | Docente 12 | Presencial | 2024-1  |                  6 |           33.3 |            33.3 |       33.3
+ Bases de datos      | Docente 07 | Presencial | 2024-1  |                  7 |           71.4 |            14.3 |       14.3
+ Bases de datos      | Docente 11 | Virtual    | 2024-1  |                 13 |           61.5 |            15.4 |       23.1
+ Bases de datos      | Docente 10 | Híbrida    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 17 | Virtual    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 01 | Virtual    | 2023-1  |                  5 |           80.0 |            20.0 |        0.0
+ Comunicación        | Docente 18 | Híbrida    | 2023-1  |                  5 |           80.0 |             0.0 |       20.0
+ Comunicación        | Docente 09 | Virtual    | 2023-1  |                  4 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 05 | Presencial | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Comunicación        | Docente 17 | Presencial | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Comunicación        | Docente 09 | Híbrida    | 2023-1  |                  6 |           66.7 |            33.3 |        0.0
+ Comunicación        | Docente 05 | Híbrida    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 17 | Híbrida    | 2023-1  |                  7 |           85.7 |             0.0 |       14.3
+ Comunicación        | Docente 12 | Virtual    | 2023-1  |                  5 |           40.0 |            60.0 |        0.0
+ Comunicación        | Docente 13 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 01 | Presencial | 2023-1  |                  4 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 05 | Virtual    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Comunicación        | Docente 10 | Híbrida    | 2023-1  |                  4 |           50.0 |            25.0 |       25.0
+ Comunicación        | Docente 06 | Presencial | 2023-1  |                 13 |           76.9 |            15.4 |        7.7
+ Comunicación        | Docente 03 | Presencial | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Comunicación        | Docente 06 | Híbrida    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 13 | Híbrida    | 2023-1  |                  5 |           80.0 |            20.0 |        0.0
+ Comunicación        | Docente 11 | Virtual    | 2023-1  |                  6 |           66.7 |            33.3 |        0.0
+ Comunicación        | Docente 16 | Presencial | 2023-1  |                 13 |           61.5 |            23.1 |       15.4
+ Comunicación        | Docente 08 | Virtual    | 2023-1  |                  6 |           66.7 |            33.3 |        0.0
+ Comunicación        | Docente 04 | Híbrida    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Comunicación        | Docente 08 | Híbrida    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Comunicación        | Docente 16 | Híbrida    | 2023-1  |                  9 |           66.7 |            11.1 |       22.2
+ Comunicación        | Docente 06 | Virtual    | 2023-1  |                  2 |           50.0 |             0.0 |       50.0
+ Comunicación        | Docente 09 | Virtual    | 2024-1  |                  4 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 12 | Virtual    | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Comunicación        | Docente 08 | Virtual    | 2024-1  |                  4 |           25.0 |            50.0 |       25.0
+ Comunicación        | Docente 13 | Presencial | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 03 | Virtual    | 2024-1  |                  5 |           60.0 |            20.0 |       20.0
+ Comunicación        | Docente 14 | Presencial | 2024-1  |                  3 |           33.3 |            33.3 |       33.3
+ Comunicación        | Docente 05 | Presencial | 2024-1  |                  6 |           83.3 |             0.0 |       16.7
+ Comunicación        | Docente 04 | Híbrida    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 02 | Presencial | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 05 | Híbrida    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 18 | Híbrida    | 2024-1  |                  5 |           40.0 |            40.0 |       20.0
+ Comunicación        | Docente 17 | Presencial | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Comunicación        | Docente 01 | Presencial | 2024-1  |                  4 |           50.0 |            25.0 |       25.0
+ Comunicación        | Docente 05 | Virtual    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Comunicación        | Docente 16 | Híbrida    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Comunicación        | Docente 13 | Híbrida    | 2024-1  |                  9 |           55.6 |            22.2 |       22.2
+ Comunicación        | Docente 11 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 06 | Virtual    | 2024-1  |                  7 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 17 | Virtual    | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 06 | Híbrida    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Comunicación        | Docente 01 | Virtual    | 2024-1  |                  5 |           40.0 |            60.0 |        0.0
+ Comunicación        | Docente 17 | Híbrida    | 2024-1  |                 10 |           60.0 |            30.0 |       10.0
+ Comunicación        | Docente 09 | Híbrida    | 2024-1  |                  4 |           50.0 |            25.0 |       25.0
+ Comunicación        | Docente 08 | Híbrida    | 2024-1  |                  8 |           75.0 |            25.0 |        0.0
+ Comunicación        | Docente 03 | Presencial | 2024-1  |                 10 |           60.0 |            30.0 |       10.0
+ Comunicación        | Docente 06 | Presencial | 2024-1  |                 10 |           70.0 |            20.0 |       10.0
+ Comunicación        | Docente 16 | Presencial | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Comunicación        | Docente 10 | Híbrida    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 15 | Híbrida    | 2023-1  |                 11 |           54.5 |            36.4 |        9.1
+ Contabilidad        | Docente 14 | Híbrida    | 2023-1  |                  5 |           80.0 |            20.0 |        0.0
+ Contabilidad        | Docente 05 | Híbrida    | 2023-1  |                  9 |           55.6 |            44.4 |        0.0
+ Contabilidad        | Docente 05 | Presencial | 2023-1  |                  6 |           83.3 |             0.0 |       16.7
+ Contabilidad        | Docente 12 | Virtual    | 2023-1  |                  7 |           57.1 |            14.3 |       28.6
+ Contabilidad        | Docente 04 | Virtual    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 13 | Híbrida    | 2023-1  |                  3 |           33.3 |            33.3 |       33.3
+ Contabilidad        | Docente 13 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 17 | Híbrida    | 2023-1  |                 12 |           16.7 |            66.7 |       16.7
+ Contabilidad        | Docente 16 | Presencial | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Contabilidad        | Docente 03 | Híbrida    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 04 | Presencial | 2023-1  |                  6 |           66.7 |            33.3 |        0.0
+ Contabilidad        | Docente 07 | Híbrida    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Contabilidad        | Docente 15 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 14 | Presencial | 2023-1  |                  4 |           50.0 |            25.0 |       25.0
+ Contabilidad        | Docente 02 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 05 | Virtual    | 2023-1  |                  4 |           50.0 |            50.0 |        0.0
+ Contabilidad        | Docente 09 | Presencial | 2023-1  |                 11 |           63.6 |            36.4 |        0.0
+ Contabilidad        | Docente 12 | Presencial | 2023-1  |                  4 |           75.0 |             0.0 |       25.0
+ Contabilidad        | Docente 08 | Presencial | 2023-1  |                 14 |           78.6 |            21.4 |        0.0
+ Contabilidad        | Docente 17 | Presencial | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 11 | Presencial | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 15 | Híbrida    | 2024-1  |                 16 |           87.5 |             6.3 |        6.3
+ Contabilidad        | Docente 12 | Virtual    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Contabilidad        | Docente 04 | Presencial | 2024-1  |                  2 |           50.0 |             0.0 |       50.0
+ Contabilidad        | Docente 05 | Virtual    | 2024-1  |                  2 |           50.0 |             0.0 |       50.0
+ Contabilidad        | Docente 02 | Presencial | 2024-1  |                  5 |           60.0 |            20.0 |       20.0
+ Contabilidad        | Docente 17 | Híbrida    | 2024-1  |                 23 |           60.9 |             8.7 |       30.4
+ Contabilidad        | Docente 13 | Híbrida    | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 13 | Virtual    | 2024-1  |                  4 |          100.0 |             0.0 |        0.0
+ Contabilidad        | Docente 12 | Presencial | 2024-1  |                 14 |           57.1 |            35.7 |        7.1
+ Contabilidad        | Docente 14 | Híbrida    | 2024-1  |                  4 |           75.0 |            25.0 |        0.0
+ Contabilidad        | Docente 15 | Virtual    | 2024-1  |                  1 |            0.0 |             0.0 |      100.0
+ Contabilidad        | Docente 09 | Presencial | 2024-1  |                 13 |           76.9 |            15.4 |        7.7
+ Contabilidad        | Docente 08 | Presencial | 2024-1  |                 10 |           40.0 |            20.0 |       40.0
+ Contabilidad        | Docente 14 | Presencial | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Contabilidad        | Docente 17 | Presencial | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Contabilidad        | Docente 03 | Híbrida    | 2024-1  |                  7 |           71.4 |            28.6 |        0.0
+ Contabilidad        | Docente 05 | Híbrida    | 2024-1  |                 12 |           66.7 |            16.7 |       16.7
+ Contabilidad        | Docente 05 | Presencial | 2024-1  |                  8 |           87.5 |            12.5 |        0.0
+ Contabilidad        | Docente 07 | Híbrida    | 2024-1  |                  6 |           33.3 |            50.0 |       16.7
+ Contabilidad        | Docente 16 | Presencial | 2024-1  |                  7 |           71.4 |             0.0 |       28.6
+ Economía            | Docente 10 | Presencial | 2023-1  |                  7 |           42.9 |            14.3 |       42.9
+ Economía            | Docente 03 | Híbrida    | 2023-1  |                  6 |           66.7 |            16.7 |       16.7
+ Economía            | Docente 08 | Presencial | 2023-1  |                  5 |           40.0 |            60.0 |        0.0
+ Economía            | Docente 16 | Híbrida    | 2023-1  |                  1 |            0.0 |             0.0 |      100.0
+ Economía            | Docente 03 | Presencial | 2023-1  |                  7 |           57.1 |            42.9 |        0.0
+ Economía            | Docente 11 | Presencial | 2023-1  |                  4 |           50.0 |            50.0 |        0.0
+ Economía            | Docente 15 | Presencial | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 14 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 05 | Virtual    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Economía            | Docente 13 | Presencial | 2023-1  |                  6 |           83.3 |            16.7 |        0.0
+ Economía            | Docente 15 | Híbrida    | 2023-1  |                  7 |           71.4 |             0.0 |       28.6
+ Economía            | Docente 09 | Presencial | 2023-1  |                  5 |           60.0 |            20.0 |       20.0
+ Economía            | Docente 06 | Presencial | 2023-1  |                  5 |           40.0 |            60.0 |        0.0
+ Economía            | Docente 08 | Híbrida    | 2023-1  |                  8 |           87.5 |             0.0 |       12.5
+ Economía            | Docente 05 | Presencial | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Economía            | Docente 02 | Virtual    | 2023-1  |                 11 |           81.8 |            18.2 |        0.0
+ Economía            | Docente 01 | Virtual    | 2023-1  |                  8 |           62.5 |            25.0 |       12.5
+ Economía            | Docente 17 | Híbrida    | 2023-1  |                  5 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 14 | Híbrida    | 2023-1  |                  6 |           50.0 |            33.3 |       16.7
+ Economía            | Docente 02 | Híbrida    | 2023-1  |                  7 |           57.1 |             0.0 |       42.9
+ Economía            | Docente 13 | Virtual    | 2023-1  |                  7 |           71.4 |            28.6 |        0.0
+ Economía            | Docente 03 | Virtual    | 2023-1  |                  4 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 06 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 03 | Virtual    | 2024-1  |                  3 |           33.3 |            66.7 |        0.0
+ Economía            | Docente 10 | Presencial | 2024-1  |                  5 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 13 | Presencial | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Economía            | Docente 16 | Híbrida    | 2024-1  |                  5 |           40.0 |            60.0 |        0.0
+ Economía            | Docente 09 | Presencial | 2024-1  |                  1 |            0.0 |           100.0 |        0.0
+ Economía            | Docente 13 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 08 | Híbrida    | 2024-1  |                 10 |           70.0 |            30.0 |        0.0
+ Economía            | Docente 03 | Híbrida    | 2024-1  |                  4 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 05 | Presencial | 2024-1  |                  4 |           50.0 |            50.0 |        0.0
+ Economía            | Docente 01 | Virtual    | 2024-1  |                 14 |           64.3 |             7.1 |       28.6
+ Economía            | Docente 17 | Híbrida    | 2024-1  |                  7 |           71.4 |            14.3 |       14.3
+ Economía            | Docente 14 | Híbrida    | 2024-1  |                  8 |           62.5 |            37.5 |        0.0
+ Economía            | Docente 02 | Híbrida    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Economía            | Docente 15 | Presencial | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Economía            | Docente 02 | Virtual    | 2024-1  |                  9 |           66.7 |            22.2 |       11.1
+ Economía            | Docente 14 | Virtual    | 2024-1  |                  3 |           33.3 |             0.0 |       66.7
+ Economía            | Docente 03 | Presencial | 2024-1  |                 10 |           60.0 |            20.0 |       20.0
+ Economía            | Docente 11 | Presencial | 2024-1  |                 10 |           50.0 |            20.0 |       30.0
+ Economía            | Docente 06 | Virtual    | 2024-1  |                  9 |           77.8 |            11.1 |       11.1
+ Economía            | Docente 06 | Presencial | 2024-1  |                 10 |           90.0 |             0.0 |       10.0
+ Economía            | Docente 08 | Presencial | 2024-1  |                  4 |           50.0 |            50.0 |        0.0
+ Economía            | Docente 15 | Híbrida    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Economía            | Docente 05 | Virtual    | 2024-1  |                  5 |           60.0 |            40.0 |        0.0
+ Estadística         | Docente 07 | Virtual    | 2023-1  |                  4 |           50.0 |            50.0 |        0.0
+ Estadística         | Docente 16 | Virtual    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 04 | Virtual    | 2023-1  |                  6 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 08 | Presencial | 2023-1  |                  4 |           25.0 |            50.0 |       25.0
+ Estadística         | Docente 11 | Híbrida    | 2023-1  |                  4 |           50.0 |            50.0 |        0.0
+ Estadística         | Docente 15 | Presencial | 2023-1  |                  9 |           44.4 |            44.4 |       11.1
+ Estadística         | Docente 02 | Híbrida    | 2023-1  |                  6 |           33.3 |            33.3 |       33.3
+ Estadística         | Docente 03 | Virtual    | 2023-1  |                  9 |           44.4 |            33.3 |       22.2
+ Estadística         | Docente 05 | Híbrida    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Estadística         | Docente 09 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 03 | Híbrida    | 2023-1  |                  7 |           42.9 |            14.3 |       42.9
+ Estadística         | Docente 04 | Presencial | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Estadística         | Docente 01 | Presencial | 2023-1  |                 20 |           80.0 |             0.0 |       20.0
+ Estadística         | Docente 18 | Híbrida    | 2023-1  |                  1 |            0.0 |           100.0 |        0.0
+ Estadística         | Docente 05 | Virtual    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 06 | Presencial | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 11 | Presencial | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 12 | Virtual    | 2023-1  |                  5 |           60.0 |            20.0 |       20.0
+ Estadística         | Docente 10 | Virtual    | 2023-1  |                 16 |           68.8 |            31.3 |        0.0
+ Estadística         | Docente 14 | Presencial | 2023-1  |                  3 |           33.3 |            66.7 |        0.0
+ Estadística         | Docente 14 | Virtual    | 2023-1  |                  9 |           55.6 |            44.4 |        0.0
+ Estadística         | Docente 13 | Híbrida    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 05 | Presencial | 2023-1  |                  6 |           83.3 |             0.0 |       16.7
+ Estadística         | Docente 13 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 13 | Virtual    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Estadística         | Docente 10 | Virtual    | 2024-1  |                 16 |           50.0 |            37.5 |       12.5
+ Estadística         | Docente 05 | Virtual    | 2024-1  |                  3 |           33.3 |            66.7 |        0.0
+ Estadística         | Docente 14 | Virtual    | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Estadística         | Docente 03 | Virtual    | 2024-1  |                  6 |           66.7 |            16.7 |       16.7
+ Estadística         | Docente 15 | Virtual    | 2024-1  |                  6 |           66.7 |            33.3 |        0.0
+ Estadística         | Docente 01 | Presencial | 2024-1  |                 18 |           55.6 |            33.3 |       11.1
+ Estadística         | Docente 06 | Presencial | 2024-1  |                  3 |           66.7 |             0.0 |       33.3
+ Estadística         | Docente 11 | Presencial | 2024-1  |                  8 |           87.5 |            12.5 |        0.0
+ Estadística         | Docente 08 | Presencial | 2024-1  |                  6 |           50.0 |            50.0 |        0.0
+ Estadística         | Docente 05 | Presencial | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Estadística         | Docente 11 | Híbrida    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 02 | Híbrida    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Estadística         | Docente 12 | Virtual    | 2024-1  |                  5 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 14 | Presencial | 2024-1  |                  5 |           60.0 |            40.0 |        0.0
+ Estadística         | Docente 13 | Híbrida    | 2024-1  |                  3 |           33.3 |            66.7 |        0.0
+ Estadística         | Docente 16 | Virtual    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Estadística         | Docente 05 | Híbrida    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Estadística         | Docente 04 | Virtual    | 2024-1  |                  8 |           50.0 |            50.0 |        0.0
+ Estadística         | Docente 07 | Virtual    | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Estadística         | Docente 03 | Híbrida    | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 15 | Presencial | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Estadística         | Docente 09 | Virtual    | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Estadística         | Docente 10 | Presencial | 2024-1  |                  1 |            0.0 |             0.0 |      100.0
+ Estadística         | Docente 18 | Híbrida    | 2024-1  |                  2 |            0.0 |             0.0 |      100.0
+ Gestión de procesos | Docente 06 | Presencial | 2023-1  |                  1 |            0.0 |           100.0 |        0.0
+ Gestión de procesos | Docente 07 | Presencial | 2023-1  |                 11 |           54.5 |            27.3 |       18.2
+ Gestión de procesos | Docente 15 | Virtual    | 2023-1  |                  6 |           33.3 |            50.0 |       16.7
+ Gestión de procesos | Docente 17 | Virtual    | 2023-1  |                  7 |           85.7 |            14.3 |        0.0
+ Gestión de procesos | Docente 13 | Virtual    | 2023-1  |                  4 |           75.0 |             0.0 |       25.0
+ Gestión de procesos | Docente 17 | Híbrida    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 04 | Híbrida    | 2023-1  |                  6 |           50.0 |            33.3 |       16.7
+ Gestión de procesos | Docente 06 | Virtual    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Gestión de procesos | Docente 07 | Híbrida    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Gestión de procesos | Docente 16 | Virtual    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 16 | Presencial | 2023-1  |                 14 |           57.1 |            28.6 |       14.3
+ Gestión de procesos | Docente 13 | Híbrida    | 2023-1  |                  4 |           25.0 |            75.0 |        0.0
+ Gestión de procesos | Docente 13 | Presencial | 2023-1  |                  2 |           50.0 |             0.0 |       50.0
+ Gestión de procesos | Docente 03 | Virtual    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 01 | Híbrida    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Gestión de procesos | Docente 14 | Virtual    | 2023-1  |                  5 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 12 | Híbrida    | 2023-1  |                  6 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 09 | Virtual    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Gestión de procesos | Docente 02 | Virtual    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 12 | Presencial | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Gestión de procesos | Docente 15 | Híbrida    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Gestión de procesos | Docente 16 | Híbrida    | 2023-1  |                  6 |           50.0 |            33.3 |       16.7
+ Gestión de procesos | Docente 08 | Presencial | 2023-1  |                 12 |           50.0 |            33.3 |       16.7
+ Gestión de procesos | Docente 04 | Presencial | 2023-1  |                  5 |           40.0 |            20.0 |       40.0
+ Gestión de procesos | Docente 04 | Virtual    | 2023-1  |                 10 |           60.0 |            10.0 |       30.0
+ Gestión de procesos | Docente 18 | Híbrida    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Gestión de procesos | Docente 08 | Presencial | 2024-1  |                 12 |           41.7 |            41.7 |       16.7
+ Gestión de procesos | Docente 15 | Virtual    | 2024-1  |                  8 |           75.0 |            12.5 |       12.5
+ Gestión de procesos | Docente 04 | Virtual    | 2024-1  |                  7 |           57.1 |            28.6 |       14.3
+ Gestión de procesos | Docente 02 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 16 | Híbrida    | 2024-1  |                  4 |           75.0 |            25.0 |        0.0
+ Gestión de procesos | Docente 09 | Virtual    | 2024-1  |                  4 |           75.0 |            25.0 |        0.0
+ Gestión de procesos | Docente 15 | Híbrida    | 2024-1  |                  4 |           50.0 |            50.0 |        0.0
+ Gestión de procesos | Docente 04 | Presencial | 2024-1  |                  7 |           42.9 |            28.6 |       28.6
+ Gestión de procesos | Docente 13 | Presencial | 2024-1  |                  5 |           60.0 |            20.0 |       20.0
+ Gestión de procesos | Docente 17 | Virtual    | 2024-1  |                  9 |           66.7 |            22.2 |       11.1
+ Gestión de procesos | Docente 01 | Híbrida    | 2024-1  |                  8 |           50.0 |            37.5 |       12.5
+ Gestión de procesos | Docente 18 | Híbrida    | 2024-1  |                  1 |            0.0 |             0.0 |      100.0
+ Gestión de procesos | Docente 04 | Híbrida    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Gestión de procesos | Docente 17 | Híbrida    | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Gestión de procesos | Docente 13 | Virtual    | 2024-1  |                  4 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 12 | Híbrida    | 2024-1  |                  5 |           40.0 |            60.0 |        0.0
+ Gestión de procesos | Docente 12 | Presencial | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 14 | Virtual    | 2024-1  |                  4 |           75.0 |            25.0 |        0.0
+ Gestión de procesos | Docente 16 | Presencial | 2024-1  |                 15 |           73.3 |            13.3 |       13.3
+ Gestión de procesos | Docente 06 | Virtual    | 2024-1  |                  1 |            0.0 |           100.0 |        0.0
+ Gestión de procesos | Docente 16 | Virtual    | 2024-1  |                  4 |           75.0 |            25.0 |        0.0
+ Gestión de procesos | Docente 13 | Híbrida    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Gestión de procesos | Docente 03 | Virtual    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Gestión de procesos | Docente 07 | Presencial | 2024-1  |                  7 |           42.9 |            28.6 |       28.6
+ Investigación       | Docente 12 | Virtual    | 2023-1  |                  9 |           55.6 |            33.3 |       11.1
+ Investigación       | Docente 17 | Híbrida    | 2023-1  |                  3 |           33.3 |            33.3 |       33.3
+ Investigación       | Docente 11 | Híbrida    | 2023-1  |                  9 |           33.3 |            22.2 |       44.4
+ Investigación       | Docente 05 | Virtual    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Investigación       | Docente 01 | Presencial | 2023-1  |                  7 |           85.7 |            14.3 |        0.0
+ Investigación       | Docente 09 | Presencial | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Investigación       | Docente 01 | Híbrida    | 2023-1  |                  8 |           87.5 |            12.5 |        0.0
+ Investigación       | Docente 08 | Presencial | 2023-1  |                  7 |           42.9 |            14.3 |       42.9
+ Investigación       | Docente 09 | Híbrida    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Investigación       | Docente 13 | Híbrida    | 2023-1  |                  4 |           50.0 |            25.0 |       25.0
+ Investigación       | Docente 03 | Presencial | 2023-1  |                  4 |           25.0 |            75.0 |        0.0
+ Investigación       | Docente 10 | Presencial | 2023-1  |                  5 |           80.0 |            20.0 |        0.0
+ Investigación       | Docente 14 | Híbrida    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 11 | Virtual    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 03 | Híbrida    | 2023-1  |                  6 |           16.7 |            50.0 |       33.3
+ Investigación       | Docente 13 | Virtual    | 2023-1  |                  1 |            0.0 |             0.0 |      100.0
+ Investigación       | Docente 10 | Híbrida    | 2023-1  |                  2 |            0.0 |           100.0 |        0.0
+ Investigación       | Docente 02 | Virtual    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Investigación       | Docente 16 | Presencial | 2023-1  |                  7 |           42.9 |            42.9 |       14.3
+ Investigación       | Docente 05 | Híbrida    | 2023-1  |                 11 |           72.7 |             9.1 |       18.2
+ Investigación       | Docente 18 | Virtual    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Investigación       | Docente 11 | Presencial | 2023-1  |                  3 |            0.0 |           100.0 |        0.0
+ Investigación       | Docente 07 | Virtual    | 2023-1  |                  3 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 12 | Presencial | 2023-1  |                  5 |           20.0 |            20.0 |       60.0
+ Investigación       | Docente 16 | Presencial | 2024-1  |                  8 |           75.0 |            25.0 |        0.0
+ Investigación       | Docente 02 | Virtual    | 2024-1  |                  3 |            0.0 |           100.0 |        0.0
+ Investigación       | Docente 10 | Híbrida    | 2024-1  |                  3 |           66.7 |             0.0 |       33.3
+ Investigación       | Docente 03 | Presencial | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Investigación       | Docente 01 | Híbrida    | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 08 | Presencial | 2024-1  |                  8 |           62.5 |            37.5 |        0.0
+ Investigación       | Docente 03 | Híbrida    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Investigación       | Docente 09 | Híbrida    | 2024-1  |                  3 |            0.0 |           100.0 |        0.0
+ Investigación       | Docente 14 | Híbrida    | 2024-1  |                  3 |           66.7 |             0.0 |       33.3
+ Investigación       | Docente 07 | Virtual    | 2024-1  |                  5 |           80.0 |             0.0 |       20.0
+ Investigación       | Docente 13 | Híbrida    | 2024-1  |                  7 |           57.1 |            28.6 |       14.3
+ Investigación       | Docente 13 | Virtual    | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Investigación       | Docente 12 | Presencial | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 05 | Híbrida    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Investigación       | Docente 10 | Presencial | 2024-1  |                  9 |           66.7 |            22.2 |       11.1
+ Investigación       | Docente 11 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 11 | Presencial | 2024-1  |                  6 |           66.7 |            33.3 |        0.0
+ Investigación       | Docente 11 | Híbrida    | 2024-1  |                 13 |           76.9 |            23.1 |        0.0
+ Investigación       | Docente 18 | Virtual    | 2024-1  |                 10 |           60.0 |            30.0 |       10.0
+ Investigación       | Docente 05 | Virtual    | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Investigación       | Docente 12 | Virtual    | 2024-1  |                 17 |           64.7 |            29.4 |        5.9
+ Investigación       | Docente 17 | Híbrida    | 2024-1  |                  7 |           57.1 |             0.0 |       42.9
+ Investigación       | Docente 09 | Presencial | 2024-1  |                  5 |           60.0 |            20.0 |       20.0
+ Investigación       | Docente 01 | Presencial | 2024-1  |                  3 |           66.7 |             0.0 |       33.3
+ Matemática          | Docente 01 | Presencial | 2023-1  |                  6 |           66.7 |            16.7 |       16.7
+ Matemática          | Docente 11 | Presencial | 2023-1  |                  2 |           50.0 |             0.0 |       50.0
+ Matemática          | Docente 03 | Virtual    | 2023-1  |                  2 |           50.0 |             0.0 |       50.0
+ Matemática          | Docente 07 | Presencial | 2023-1  |                  9 |           44.4 |            22.2 |       33.3
+ Matemática          | Docente 13 | Presencial | 2023-1  |                  5 |           80.0 |             0.0 |       20.0
+ Matemática          | Docente 11 | Híbrida    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 10 | Virtual    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Matemática          | Docente 17 | Híbrida    | 2023-1  |                  9 |           66.7 |            22.2 |       11.1
+ Matemática          | Docente 05 | Híbrida    | 2023-1  |                  3 |           66.7 |             0.0 |       33.3
+ Matemática          | Docente 08 | Híbrida    | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 18 | Presencial | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Matemática          | Docente 08 | Presencial | 2023-1  |                  9 |           77.8 |            11.1 |       11.1
+ Matemática          | Docente 14 | Híbrida    | 2023-1  |                  2 |           50.0 |             0.0 |       50.0
+ Matemática          | Docente 08 | Virtual    | 2023-1  |                  7 |           71.4 |            28.6 |        0.0
+ Matemática          | Docente 01 | Virtual    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 17 | Virtual    | 2023-1  |                 10 |           70.0 |            20.0 |       10.0
+ Matemática          | Docente 15 | Híbrida    | 2023-1  |                  4 |           50.0 |            25.0 |       25.0
+ Matemática          | Docente 18 | Híbrida    | 2023-1  |                  2 |           50.0 |             0.0 |       50.0
+ Matemática          | Docente 14 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 12 | Presencial | 2023-1  |                  6 |           66.7 |            33.3 |        0.0
+ Matemática          | Docente 11 | Virtual    | 2023-1  |                  2 |            0.0 |           100.0 |        0.0
+ Matemática          | Docente 07 | Virtual    | 2023-1  |                  9 |           66.7 |            33.3 |        0.0
+ Matemática          | Docente 04 | Virtual    | 2023-1  |                 16 |           62.5 |            25.0 |       12.5
+ Matemática          | Docente 03 | Presencial | 2023-1  |                  7 |           71.4 |            28.6 |        0.0
+ Matemática          | Docente 09 | Presencial | 2023-1  |                  4 |           50.0 |            25.0 |       25.0
+ Matemática          | Docente 15 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 09 | Presencial | 2024-1  |                  3 |           33.3 |            66.7 |        0.0
+ Matemática          | Docente 15 | Presencial | 2024-1  |                  4 |           75.0 |            25.0 |        0.0
+ Matemática          | Docente 07 | Presencial | 2024-1  |                  5 |           80.0 |             0.0 |       20.0
+ Matemática          | Docente 14 | Híbrida    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 17 | Virtual    | 2024-1  |                  6 |           50.0 |            33.3 |       16.7
+ Matemática          | Docente 05 | Híbrida    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Matemática          | Docente 11 | Presencial | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Matemática          | Docente 13 | Presencial | 2024-1  |                 14 |           64.3 |             7.1 |       28.6
+ Matemática          | Docente 07 | Virtual    | 2024-1  |                  8 |           37.5 |            50.0 |       12.5
+ Matemática          | Docente 08 | Presencial | 2024-1  |                 10 |           70.0 |            20.0 |       10.0
+ Matemática          | Docente 18 | Presencial | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 17 | Híbrida    | 2024-1  |                  1 |            0.0 |           100.0 |        0.0
+ Matemática          | Docente 01 | Presencial | 2024-1  |                  8 |           62.5 |             0.0 |       37.5
+ Matemática          | Docente 15 | Híbrida    | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 10 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 08 | Virtual    | 2024-1  |                  6 |           50.0 |            33.3 |       16.7
+ Matemática          | Docente 04 | Virtual    | 2024-1  |                 18 |           55.6 |            33.3 |       11.1
+ Matemática          | Docente 18 | Híbrida    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Matemática          | Docente 03 | Presencial | 2024-1  |                  4 |           25.0 |            75.0 |        0.0
+ Matemática          | Docente 11 | Híbrida    | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 08 | Híbrida    | 2024-1  |                  2 |            0.0 |            50.0 |       50.0
+ Matemática          | Docente 11 | Virtual    | 2024-1  |                  3 |          100.0 |             0.0 |        0.0
+ Matemática          | Docente 12 | Presencial | 2024-1  |                  4 |           50.0 |            50.0 |        0.0
+ Matemática          | Docente 01 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 05 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 04 | Presencial | 2023-1  |                  6 |           16.7 |            50.0 |       33.3
+ Programación        | Docente 15 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 06 | Virtual    | 2023-1  |                  7 |           57.1 |            28.6 |       14.3
+ Programación        | Docente 02 | Virtual    | 2023-1  |                  6 |           83.3 |             0.0 |       16.7
+ Programación        | Docente 18 | Virtual    | 2023-1  |                  3 |           33.3 |            66.7 |        0.0
+ Programación        | Docente 12 | Presencial | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Programación        | Docente 04 | Virtual    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Programación        | Docente 08 | Presencial | 2023-1  |                  8 |           50.0 |            50.0 |        0.0
+ Programación        | Docente 07 | Virtual    | 2023-1  |                  6 |           83.3 |             0.0 |       16.7
+ Programación        | Docente 02 | Presencial | 2023-1  |                 14 |           64.3 |            21.4 |       14.3
+ Programación        | Docente 14 | Presencial | 2023-1  |                 10 |           80.0 |            10.0 |       10.0
+ Programación        | Docente 12 | Virtual    | 2023-1  |                  3 |           66.7 |            33.3 |        0.0
+ Programación        | Docente 17 | Híbrida    | 2023-1  |                  7 |           57.1 |            42.9 |        0.0
+ Programación        | Docente 11 | Híbrida    | 2023-1  |                  6 |           33.3 |            66.7 |        0.0
+ Programación        | Docente 04 | Híbrida    | 2023-1  |                 17 |           70.6 |            29.4 |        0.0
+ Programación        | Docente 17 | Presencial | 2023-1  |                  5 |           40.0 |            60.0 |        0.0
+ Programación        | Docente 03 | Virtual    | 2023-1  |                  2 |           50.0 |            50.0 |        0.0
+ Programación        | Docente 10 | Virtual    | 2023-1  |                  7 |           71.4 |            14.3 |       14.3
+ Programación        | Docente 18 | Presencial | 2023-1  |                  9 |           88.9 |            11.1 |        0.0
+ Programación        | Docente 07 | Presencial | 2023-1  |                  6 |           83.3 |            16.7 |        0.0
+ Programación        | Docente 11 | Presencial | 2023-1  |                  2 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 06 | Híbrida    | 2023-1  |                  1 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 15 | Híbrida    | 2023-1  |                  5 |           40.0 |            20.0 |       40.0
+ Programación        | Docente 13 | Híbrida    | 2023-1  |                  4 |           75.0 |            25.0 |        0.0
+ Programación        | Docente 18 | Virtual    | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 02 | Presencial | 2024-1  |                 13 |           84.6 |             7.7 |        7.7
+ Programación        | Docente 17 | Presencial | 2024-1  |                  1 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 04 | Presencial | 2024-1  |                  5 |           80.0 |            20.0 |        0.0
+ Programación        | Docente 13 | Híbrida    | 2024-1  |                  1 |            0.0 |           100.0 |        0.0
+ Programación        | Docente 14 | Presencial | 2024-1  |                  8 |           62.5 |            12.5 |       25.0
+ Programación        | Docente 12 | Virtual    | 2024-1  |                  6 |           66.7 |            33.3 |        0.0
+ Programación        | Docente 07 | Presencial | 2024-1  |                  4 |           50.0 |            50.0 |        0.0
+ Programación        | Docente 04 | Híbrida    | 2024-1  |                 18 |           77.8 |            11.1 |       11.1
+ Programación        | Docente 06 | Virtual    | 2024-1  |                  3 |           33.3 |            33.3 |       33.3
+ Programación        | Docente 02 | Virtual    | 2024-1  |                  4 |           25.0 |            25.0 |       50.0
+ Programación        | Docente 04 | Virtual    | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 08 | Presencial | 2024-1  |                  7 |           71.4 |            14.3 |       14.3
+ Programación        | Docente 18 | Presencial | 2024-1  |                  2 |          100.0 |             0.0 |        0.0
+ Programación        | Docente 15 | Presencial | 2024-1  |                  1 |            0.0 |           100.0 |        0.0
+ Programación        | Docente 06 | Híbrida    | 2024-1  |                  4 |           50.0 |            25.0 |       25.0
+ Programación        | Docente 10 | Virtual    | 2024-1  |                  7 |           57.1 |            14.3 |       28.6
+ Programación        | Docente 17 | Híbrida    | 2024-1  |                  5 |           60.0 |            20.0 |       20.0
+ Programación        | Docente 03 | Virtual    | 2024-1  |                  2 |           50.0 |            50.0 |        0.0
+ Programación        | Docente 05 | Presencial | 2024-1  |                  4 |           25.0 |            75.0 |        0.0
+ Programación        | Docente 15 | Híbrida    | 2024-1  |                  4 |           75.0 |             0.0 |       25.0
+ Programación        | Docente 07 | Virtual    | 2024-1  |                  3 |           66.7 |            33.3 |        0.0
+ Programación        | Docente 11 | Híbrida    | 2024-1  |                  8 |           62.5 |            12.5 |       25.0
+ Programación        | Docente 11 | Presencial | 2024-1  |                  4 |            0.0 |            75.0 |       25.0
+(442 filas)
+
+ codigo_periodo |        carrera        | cohorte | cantidad_notas_registradas | nota_promedio | total_creditos_aprobados | promedio_creditos_por_estudiante 
+----------------+-----------------------+---------+----------------------------+---------------+--------------------------+----------------------------------
+ 2024-1         | Administración        | 2023-1  |                         83 |         72.79 |                      203 |                              2.2
+ 2024-1         | Administración        | 2024-1  |                         94 |         72.49 |                      228 |                              2.2
+ 2024-1         | Informática           | 2023-1  |                         88 |         75.79 |                      222 |                              2.2
+ 2024-1         | Informática           | 2024-1  |                         78 |         72.31 |                      175 |                              1.9
+ 2024-1         | Ingeniería Industrial | 2023-1  |                         80 |         69.01 |                      190 |                              2.0
+ 2024-1         | Ingeniería Industrial | 2024-1  |                         87 |         72.72 |                      204 |                              2.0
+ 2024-2         | Administración        | 2023-1  |                         78 |         75.04 |                      198 |                              2.2
+ 2024-2         | Administración        | 2024-1  |                         75 |         72.86 |                      163 |                              1.9
+ 2024-2         | Informática           | 2023-1  |                         76 |         77.60 |                      199 |                              2.3
+ 2024-2         | Informática           | 2024-1  |                         93 |         73.77 |                      210 |                              2.0
+ 2024-2         | Ingeniería Industrial | 2023-1  |                         94 |         75.00 |                      231 |                              2.3
+ 2024-2         | Ingeniería Industrial | 2024-1  |                         91 |         77.52 |                      238 |                              2.3
+ 2025-1         | Administración        | 2023-1  |                         77 |         70.81 |                      175 |                              2.0
+ 2025-1         | Administración        | 2024-1  |                         83 |         73.36 |                      192 |                              2.1
+ 2025-1         | Informática           | 2023-1  |                         96 |         76.37 |                      243 |                              2.3
+ 2025-1         | Informática           | 2024-1  |                         91 |         75.37 |                      231 |                              2.3
+ 2025-1         | Ingeniería Industrial | 2023-1  |                         84 |         72.25 |                      198 |                              2.2
+ 2025-1         | Ingeniería Industrial | 2024-1  |                         73 |         78.67 |                      185 |                              2.2
+ 2025-2         | Administración        | 2023-1  |                         82 |         73.31 |                      192 |                              2.1
+ 2025-2         | Administración        | 2024-1  |                         87 |         77.31 |                      227 |                              2.4
+ 2025-2         | Informática           | 2023-1  |                         93 |         73.82 |                      208 |                              1.9
+ 2025-2         | Informática           | 2024-1  |                         81 |         75.42 |                      198 |                              2.1
+ 2025-2         | Ingeniería Industrial | 2023-1  |                         77 |         76.02 |                      194 |                              2.3
+ 2025-2         | Ingeniería Industrial | 2024-1  |                         81 |         73.81 |                      185 |                              1.9
+(24 filas)
+
+        curso        |  sede   | horario | demanda_total | cupos_ofertados | cupos_utilizados | pct_utilizacion_cupos 
+---------------------+---------+---------+---------------+-----------------+------------------+-----------------------
+ Matemática          | Central | Mañana  |           164 |              20 |               20 |                 100.0
+ Estadística         | Central | Mañana  |           157 |              20 |               20 |                 100.0
+ Gestión de procesos | Central | Mañana  |           155 |              20 |               20 |                 100.0
+ Investigación       | Central | Mañana  |           151 |              20 |               20 |                 100.0
+ Economía            | Central | Mañana  |           151 |              20 |               20 |                 100.0
+ Comunicación        | Central | Mañana  |           139 |              20 |               20 |                 100.0
+ Programación        | Central | Mañana  |           132 |              20 |               20 |                 100.0
+ Contabilidad        | Central | Mañana  |           129 |              20 |               20 |                 100.0
+ Bases de datos      | Central | Mañana  |           122 |              20 |               20 |                 100.0
+ Contabilidad        | Central | Tarde   |            83 |              60 |               60 |                 100.0
+ Gestión de procesos | Central | Tarde   |            80 |              60 |               60 |                 100.0
+ Comunicación        | Central | Tarde   |            77 |              56 |               56 |                 100.0
+ Economía            | Central | Tarde   |            77 |              60 |               60 |                 100.0
+ Contabilidad        | Norte   | Mañana  |            70 |              56 |               56 |                 100.0
+ Investigación       | Central | Tarde   |            68 |              48 |               48 |                 100.0
+ Estadística         | Norte   | Mañana  |            67 |              48 |               48 |                 100.0
+ Investigación       | Norte   | Mañana  |            53 |              52 |               49 |                  94.2
+ Matemática          | Norte   | Mañana  |            59 |              44 |               41 |                  93.2
+ Estadística         | Central | Tarde   |            74 |              52 |               48 |                  92.3
+ Bases de datos      | Norte   | Mañana  |            69 |              68 |               61 |                  89.7
+(20 filas)
+
+        curso        |  sede   | horario | total_solicitudes | solicitudes_rechazadas_sin_cupo | pct_rechazo_sin_cupo 
+---------------------+---------+---------+-------------------+---------------------------------+----------------------
+ Estadística         | Central | Mañana  |               157 |                             129 |                 82.2
+ Matemática          | Central | Mañana  |               164 |                             131 |                 79.9
+ Comunicación        | Central | Mañana  |               139 |                             110 |                 79.1
+ Economía            | Central | Mañana  |               151 |                             119 |                 78.8
+ Programación        | Central | Mañana  |               132 |                             104 |                 78.8
+ Investigación       | Central | Mañana  |               151 |                             118 |                 78.1
+ Contabilidad        | Central | Mañana  |               129 |                              99 |                 76.7
+ Bases de datos      | Central | Mañana  |               122 |                              91 |                 74.6
+ Gestión de procesos | Central | Mañana  |               155 |                             114 |                 73.5
+ Programación        | Central | Tarde   |                78 |                              21 |                 26.9
+ Comunicación        | Norte   | Mañana  |                67 |                              18 |                 26.9
+ Estadística         | Central | Tarde   |                74 |                              17 |                 23.0
+ Comunicación        | Central | Tarde   |                77 |                              17 |                 22.1
+ Investigación       | Central | Tarde   |                68 |                              14 |                 20.6
+ Matemática          | Norte   | Mañana  |                59 |                              12 |                 20.3
+ Matemática          | Central | Tarde   |                75 |                              15 |                 20.0
+ Gestión de procesos | Central | Tarde   |                80 |                              15 |                 18.8
+ Economía            | Central | Tarde   |                77 |                              13 |                 16.9
+ Estadística         | Norte   | Mañana  |                67 |                              11 |                 16.4
+ Contabilidad        | Norte   | Mañana  |                70 |                              11 |                 15.7
+(20 filas)
+
