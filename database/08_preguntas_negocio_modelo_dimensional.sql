@@ -89,7 +89,7 @@ SELECT
     c.nombre AS curso,
     s.nombre AS sede,
     h.franja AS horario,
-    SUM(f.solicitudes) AS demanda_total,
+    SUM(f.es_asignada + f.es_sin_cupo) AS demanda_total,
     SUM(f.capacidad_corte) AS cupos_ofertados,
     SUM(f.matricula) AS cupos_utilizados,
     ROUND(100.0 * SUM(f.matricula) / NULLIF(SUM(f.capacidad_corte), 0), 1) AS pct_utilizacion_cupos
@@ -111,15 +111,16 @@ SELECT
     c.nombre AS curso,
     s.nombre AS sede,
     h.franja AS horario,
-    SUM(f.solicitudes) AS total_solicitudes,
+    SUM(f.es_asignada + f.es_sin_cupo) AS total_solicitudes_activas,
     SUM(f.es_sin_cupo) AS solicitudes_rechazadas_sin_cupo,
-    ROUND(100.0 * SUM(f.es_sin_cupo) / NULLIF(SUM(f.solicitudes), 0), 1) AS pct_rechazo_sin_cupo
+    ROUND(100.0 * SUM(f.es_sin_cupo) / NULLIF(SUM(f.es_asignada + f.es_sin_cupo), 0), 1) AS pct_rechazo_sin_cupo
 FROM dw.fact_academico f
 JOIN dw.dim_curso c   ON f.sk_curso = c.sk_curso
 JOIN dw.dim_sede s    ON f.sk_sede = s.sk_sede
 JOIN dw.dim_horario h ON f.sk_horario = h.sk_horario
 WHERE f.tipo_registro = 'SOLICITUD'
+  AND (f.es_asignada = 1 OR f.es_sin_cupo = 1) -- Excluye NO_ELEGIBLE y DESISTIDA
 GROUP BY c.nombre, s.nombre, h.franja
-HAVING SUM(f.solicitudes) >= 5 -- Filtro de relevancia estadística
+HAVING SUM(f.es_asignada + f.es_sin_cupo) >= 5 -- Filtro de relevancia estadística ajustado
 ORDER BY pct_rechazo_sin_cupo DESC, solicitudes_rechazadas_sin_cupo DESC
 LIMIT 20;
