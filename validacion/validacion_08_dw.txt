@@ -534,49 +534,49 @@
 
         curso        |  sede   | horario | demanda_total | cupos_ofertados | cupos_utilizados | pct_utilizacion_cupos 
 ---------------------+---------+---------+---------------+-----------------+------------------+-----------------------
- Matemática          | Central | Mañana  |           164 |              20 |               20 |                 100.0
- Estadística         | Central | Mañana  |           157 |              20 |               20 |                 100.0
- Gestión de procesos | Central | Mañana  |           155 |              20 |               20 |                 100.0
- Investigación       | Central | Mañana  |           151 |              20 |               20 |                 100.0
- Economía            | Central | Mañana  |           151 |              20 |               20 |                 100.0
- Comunicación        | Central | Mañana  |           139 |              20 |               20 |                 100.0
- Programación        | Central | Mañana  |           132 |              20 |               20 |                 100.0
- Contabilidad        | Central | Mañana  |           129 |              20 |               20 |                 100.0
- Bases de datos      | Central | Mañana  |           122 |              20 |               20 |                 100.0
- Contabilidad        | Central | Tarde   |            83 |              60 |               60 |                 100.0
- Gestión de procesos | Central | Tarde   |            80 |              60 |               60 |                 100.0
- Comunicación        | Central | Tarde   |            77 |              56 |               56 |                 100.0
- Economía            | Central | Tarde   |            77 |              60 |               60 |                 100.0
- Contabilidad        | Norte   | Mañana  |            70 |              56 |               56 |                 100.0
- Investigación       | Central | Tarde   |            68 |              48 |               48 |                 100.0
- Estadística         | Norte   | Mañana  |            67 |              48 |               48 |                 100.0
- Investigación       | Norte   | Mañana  |            53 |              52 |               49 |                  94.2
- Matemática          | Norte   | Mañana  |            59 |              44 |               41 |                  93.2
- Estadística         | Central | Tarde   |            74 |              52 |               48 |                  92.3
- Bases de datos      | Norte   | Mañana  |            69 |              68 |               61 |                  89.7
+ Matemática          | Central | Mañana  |           151 |              20 |               20 |                 100.0
+ Estadística         | Central | Mañana  |           149 |              20 |               20 |                 100.0
+ Economía            | Central | Mañana  |           139 |              20 |               20 |                 100.0
+ Investigación       | Central | Mañana  |           138 |              20 |               20 |                 100.0
+ Gestión de procesos | Central | Mañana  |           134 |              20 |               20 |                 100.0
+ Comunicación        | Central | Mañana  |           130 |              20 |               20 |                 100.0
+ Programación        | Central | Mañana  |           124 |              20 |               20 |                 100.0
+ Contabilidad        | Central | Mañana  |           119 |              20 |               20 |                 100.0
+ Bases de datos      | Central | Mañana  |           111 |              20 |               20 |                 100.0
+ Gestión de procesos | Central | Tarde   |            75 |              60 |               60 |                 100.0
+ Comunicación        | Central | Tarde   |            73 |              56 |               56 |                 100.0
+ Economía            | Central | Tarde   |            73 |              60 |               60 |                 100.0
+ Contabilidad        | Central | Tarde   |            72 |              60 |               60 |                 100.0
+ Contabilidad        | Norte   | Mañana  |            67 |              56 |               56 |                 100.0
+ Investigación       | Central | Tarde   |            62 |              48 |               48 |                 100.0
+ Estadística         | Norte   | Mañana  |            59 |              48 |               48 |                 100.0
+ Investigación       | Norte   | Mañana  |            50 |              52 |               49 |                  94.2
+ Matemática          | Norte   | Mañana  |            53 |              44 |               41 |                  93.2
+ Estadística         | Central | Tarde   |            65 |              52 |               48 |                  92.3
+ Bases de datos      | Norte   | Mañana  |            64 |              68 |               61 |                  89.7
 (20 filas)
 
-        curso        |  sede   | horario | total_solicitudes | solicitudes_rechazadas_sin_cupo | pct_rechazo_sin_cupo 
----------------------+---------+---------+-------------------+---------------------------------+----------------------
- Estadística         | Central | Mañana  |               157 |                             129 |                 82.2
- Matemática          | Central | Mañana  |               164 |                             131 |                 79.9
- Comunicación        | Central | Mañana  |               139 |                             110 |                 79.1
- Economía            | Central | Mañana  |               151 |                             119 |                 78.8
- Programación        | Central | Mañana  |               132 |                             104 |                 78.8
- Investigación       | Central | Mañana  |               151 |                             118 |                 78.1
- Contabilidad        | Central | Mañana  |               129 |                              99 |                 76.7
- Bases de datos      | Central | Mañana  |               122 |                              91 |                 74.6
- Gestión de procesos | Central | Mañana  |               155 |                             114 |                 73.5
- Programación        | Central | Tarde   |                78 |                              21 |                 26.9
- Comunicación        | Norte   | Mañana  |                67 |                              18 |                 26.9
- Estadística         | Central | Tarde   |                74 |                              17 |                 23.0
- Comunicación        | Central | Tarde   |                77 |                              17 |                 22.1
- Investigación       | Central | Tarde   |                68 |                              14 |                 20.6
- Matemática          | Norte   | Mañana  |                59 |                              12 |                 20.3
- Matemática          | Central | Tarde   |                75 |                              15 |                 20.0
- Gestión de procesos | Central | Tarde   |                80 |                              15 |                 18.8
- Economía            | Central | Tarde   |                77 |                              13 |                 16.9
- Estadística         | Norte   | Mañana  |                67 |                              11 |                 16.4
- Contabilidad        | Norte   | Mañana  |                70 |                              11 |                 15.7
+        curso        |  sede   | horario | total_solicitudes_activas | solicitudes_rechazadas_sin_cupo | pct_rechazo_sin_cupo 
+---------------------+---------+---------+---------------------------+---------------------------------+----------------------
+ Matemática          | Central | Mañana  |                       151 |                             131 |                 86.8
+ Estadística         | Central | Mañana  |                       149 |                             129 |                 86.6
+ Economía            | Central | Mañana  |                       139 |                             119 |                 85.6
+ Investigación       | Central | Mañana  |                       138 |                             118 |                 85.5
+ Gestión de procesos | Central | Mañana  |                       134 |                             114 |                 85.1
+ Comunicación        | Central | Mañana  |                       130 |                             110 |                 84.6
+ Programación        | Central | Mañana  |                       124 |                             104 |                 83.9
+ Contabilidad        | Central | Mañana  |                       119 |                              99 |                 83.2
+ Bases de datos      | Central | Mañana  |                       111 |                              91 |                 82.0
+ Comunicación        | Norte   | Mañana  |                        61 |                              18 |                 29.5
+ Programación        | Central | Tarde   |                        74 |                              21 |                 28.4
+ Estadística         | Central | Tarde   |                        65 |                              17 |                 26.2
+ Comunicación        | Central | Tarde   |                        73 |                              17 |                 23.3
+ Investigación       | Central | Tarde   |                        62 |                              14 |                 22.6
+ Matemática          | Norte   | Mañana  |                        53 |                              12 |                 22.6
+ Matemática          | Central | Tarde   |                        69 |                              15 |                 21.7
+ Gestión de procesos | Central | Tarde   |                        75 |                              15 |                 20.0
+ Estadística         | Norte   | Mañana  |                        59 |                              11 |                 18.6
+ Economía            | Central | Tarde   |                        73 |                              13 |                 17.8
+ Contabilidad        | Central | Tarde   |                        72 |                              12 |                 16.7
 (20 filas)
 
